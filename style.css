@@ -208,8 +208,10 @@ main{
     padding: 12px;
     color: white;
     border-radius: 0 10px 10px 0;
+    cursor: pointer;
 }
 
 footer{
     margin-top: 25px;
+    color: gray;
 }
