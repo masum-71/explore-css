@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(213, 68, 68);
+}
+
+.links{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.list{
+    list-style: none; 
+}
+
+
+.list a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.list a:hover{
+    background-color: brown;
+   
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.sub-names{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sub-names li{
+    list-style: none;
+}
+
+.sub-names li a{
+    text-decoration: none;
+    color: brown;
+    font-size: 1.4em;
+    background-color: rgba(177, 54, 54, 0.276);
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+
+.sub-names li a:hover{
+    border: 1px solid brown;
+}
+
+main{
+    background-color: rgb(249, 249, 249);
+}
+.main-sec{
+    width: 90%;
+    height: 100vh;
+    margin: 0px auto;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog{
+    width: 55%;
+    margin-right: 20px;
+}
+
+.sub-blog{
+    display: flex;
+    margin: 25px 0 50px;
+    align-items: center;
+   
+}
+.sub-info{
+    display: flex;
+}
+
+.sub-blog img{
+    background-color: brown;
+    width: 150px;
+    height: auto;
+    margin-right: 45px;
+    margin-bottom: 25px;
+    border: 2px solid brown;
+    border-radius: 15px;
+    transform: rotate(-25deg);
+    box-shadow: 0px 0px 10px 0px;
+    transition: .5s;
+}
+
+.date{
+    color: gray;
+    margin-left: 5px;
+}
+
+.article{
+    font-size: 1.5em;
+    line-height: 35px;
+    margin-bottom: 25px;
+}
+
+.continue{
+    font-size: 1.5em;
+    color: brown;
+    margin-bottom: 25px;
+}
+
+.sub-blog img:hover{
+    transform: rotate(0deg);
+}
+
+.info a{
+    color: brown;
+    font-size: 1.2em;
+}
+
+.info h1{
+    font-size: 3em;
+    margin: 10px 0;
+}
+
+.info h1:hover{
+    cursor: pointer;
+}
+.newsletter{
+  width: 35%;
+  height: 90vh;
+  margin-left: 20px;
+  position: relative;
+}
+
+.newsletter img{
+    width: 250px;
+    position: absolute;
+    left: 30%;
+}
+.news-info{
+    background-color: rgb(200, 239, 239);
+    height: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    padding: 0 25px;
+}
+
+.news-info h3{
+    font-size: 2.5rem;
+    background-color: white;
+    padding: 10px;
+    color: brown;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    
+}
+
+.news-info h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.news-info p{
+    font-size: 1.5rem;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+.email {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 90%;
+    margin-bottom: 25px;
+}
+
+.email-inpu{
+    width: 100%;
+    padding: 15px;
+    box-shadow: 1px 5px 15px 0px;
+}
+
+.email label{
+    position: absolute;
+    right: 0;
+    width: 25%;
+    font-size: 1.5rem;
+    background-color: rgb(89, 77, 221);
+    padding: 12px;
+    color: white;
+    border-radius: 0 10px 10px 0;
+}
+
+footer{
+    margin-top: 25px;
+}
